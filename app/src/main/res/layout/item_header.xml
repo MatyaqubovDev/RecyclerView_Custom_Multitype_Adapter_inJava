@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_user"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/icon_person" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_post_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:background="#E5EDED"
+            android:hint="What is your mind?"
+            android:shadowRadius="15"
+            android:textColorHint="@color/black" />
+
+        <ImageView
+            android:id="@+id/img_add_photo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/addphoto" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white" />
+
+
+</LinearLayout>
